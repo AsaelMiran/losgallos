@@ -1,0 +1,58 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+h1, h2{
+	margin: 0;
+	padding:0;
+	width: 100%;
+	text-align: center;
+	font-size: 4.2em;
+}
+img{
+	max-width: 100%;
+	width: 100%;
+}
+.header{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+	margin: 0;
+	height: 100vh;
+	background-color: hsl(200, 70%, 50%);
+	color: white;
+}
+.info{
+	display: flex;
+	justify-content: space-between;
+	background-color: hsl(200, 70%, 50%);
+}
+.info__item{
+	font-size: 2em;
+	background-color: hsl(200, 70%, 50%);
+	text-align: center;
+	color: white;
+	padding: 2em;
+}
+
+.image-container{
+position: relative;
+}
+.image-box{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #555;
+	opacity: .4;
+	top: 0;
+}
+.image-info{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	font-size: 2em;
+	color: white;
+
+}
